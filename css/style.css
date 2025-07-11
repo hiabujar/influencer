@@ -13,17 +13,23 @@
 
 /* Nav bar Style */
 .nav-bar{
-    display: flex;
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     max-width: 1140px;
     margin-left: 50px;
     align-items: center;
     justify-content: space-between;
 }
-.nav-links a{
+.nav-links ul li a{
     margin-right: 20px;
     text-decoration: none;
     color: rgba(58, 58, 58, 1);
+}
+.nav-links ul{
+    font-display: flex;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
 }
 /* Banner styles */
 .banner{
@@ -57,3 +63,17 @@
 }
 
 /* MEDIA QUERY RESPONSIVE*/
+@media screen and (max-width: 576px) {
+    .nav-bar, .nav-items, .banner{
+        flex-direction: column;
+    }  
+   .icon-container{
+    flex-direction: column;
+    margin-left: 120px;
+    gap: 20px;
+   }
+   .icon-container img{
+    width: 150px;
+    
+   }
+}
