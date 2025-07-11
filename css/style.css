@@ -1,0 +1,59 @@
+/* Shared styles */
+.display-flex{
+    display: flex;
+}
+
+.btn{
+    color: white;
+    background: rgb(186, 9, 9);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Nav bar Style */
+.nav-bar{
+    display: flex;
+    font-size: 1.25rem;
+    max-width: 1140px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+}
+/* Banner styles */
+.banner{
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    max-width: 1140px;
+    justify-content: space-between;
+}
+.banner-detailes{
+    max-width: 500px;
+
+}
+
+.banner-image{
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+}
+.banner-image img{
+    width: 440px;
+    height: auto;
+}
+
+/* Icon container style */
+.icon-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.icon-container img{
+    margin-right: 50px;
+}
+
+/* MEDIA QUERY RESPONSIVE*/
